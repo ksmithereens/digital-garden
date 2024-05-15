@@ -1,5 +1,5 @@
 ---
-const siteName = "Khaleel's Digital Garden";
+import '../styles/global.css';
 ---
 
 <html lang="en">
@@ -11,8 +11,14 @@ const siteName = "Khaleel's Digital Garden";
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>{siteName}</h1>
+		<h1></h1>
 
-		<p>Welcome to my website {siteName}</p>
+		<nav>
+			<a href="/">Home</a>
+			<a href="portfolio">Portfolio</a>
+			<a href="about">About</a>
+		</nav>
+
+		<p>About Me</p>
 	</body>
 </html>
